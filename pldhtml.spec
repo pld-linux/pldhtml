@@ -1,7 +1,7 @@
 Summary:	PLD html pages
 Summary(pl):	Strony html PLD
 Name:		pldhtml
-Version:	0.1
+Version:	0.2
 Release:	1
 Group:		Documentation
 Group(pl):	Dokumentacja
@@ -22,6 +22,7 @@ Strony html projektu PLD.
 %setup  -q -n main
 
 %build
+find . -type d -name CVS |xargs rm -rf
 
 %install
 rm -rf $RPM_BUILD_ROOT
