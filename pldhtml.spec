@@ -6,9 +6,6 @@ Release:	1
 License:	GPL
 Vendor:		PLD
 Group:		Documentation
-Group(de):	Dokumentation
-Group(es):	Documentación
-Group(pl):	Dokumentacja
 Source0:	%{name}-%{version}.tar.bz2
 Obsoletes:	indexhtml
 Provides:	indexhtml
