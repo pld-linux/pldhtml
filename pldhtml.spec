@@ -37,8 +37,3 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 /usr/doc/HTML
-
-%changelog
-* Fri Mar 19 1999 Artur Frysiak <wiget@pld.org.pl>
-  [1-1]
-- initial release make from CVS
