@@ -10,7 +10,7 @@ Vendor:		PLD
 Source0:	%{name}-%{version}.tar.bz2
 Obsoletes:	indexhtml
 Provides:	indexhtml
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 HTML pages of Polish(ed) Linux Distribution project.
