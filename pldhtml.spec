@@ -7,6 +7,7 @@ License:	GPL
 Vendor:		PLD
 Group:		Documentation
 Source0:	%{name}-%{version}.tar.bz2
+# Source0-md5:	757042065994e36ae606138f67da1a6e
 Obsoletes:	indexhtml
 Provides:	indexhtml
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
