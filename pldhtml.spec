@@ -3,10 +3,12 @@ Summary(pl):	Strony html PLD
 Name:		pldhtml
 Version:	0.2
 Release:	1
-Group:		Documentation
-Group(pl):	Dokumentacja
 License:	GPL
 Vendor:		PLD
+Group:		Documentation
+Group(de):	Dokumentation
+Group(es):	Documentación
+Group(pl):	Dokumentacja
 Source0:	%{name}-%{version}.tar.bz2
 Obsoletes:	indexhtml
 Provides:	indexhtml
