@@ -40,5 +40,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %changelog
 * Fri Mar 19 1999 Artur Frysiak <wiget@pld.org.pl>
- [1-1]
+  [1-1]
 - initial release make from CVS
