@@ -5,7 +5,7 @@ Version:	0.2
 Release:	1
 Group:		Documentation
 Group(pl):	Dokumentacja
-Copyright:	GPL
+License:	GPL
 Vendor:		PLD
 Source0:	%{name}-%{version}.tar.bz2
 Obsoletes:	indexhtml
@@ -27,13 +27,13 @@ find . -type d -name CVS |xargs rm -rf
 %install
 rm -rf $RPM_BUILD_ROOT
 
-install -d $RPM_BUILD_ROOT/usr/doc/HTML
+install -d $RPM_BUILD_ROOT%{_datadir}/doc/HTML
 
-cp -pr * $RPM_BUILD_ROOT/usr/doc/HTML
+cp -pr * $RPM_BUILD_ROOT%{_datadir}/doc/HTML
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-/usr/doc/HTML
+%{_datatdir}/doc/HTML
