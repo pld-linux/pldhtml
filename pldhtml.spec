@@ -1,5 +1,5 @@
 Summary:	PLD HTML pages
-Summary(pl):	Strony HTML PLD
+Summary(pl.UTF-8):   Strony HTML PLD
 Name:		pldhtml
 Version:	0.2
 Release:	1
@@ -15,7 +15,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 HTML pages of Polish(ed) Linux Distribution project.
 
-%description -l pl
+%description -l pl.UTF-8
 Strony HTML projektu PLD.
 
 %prep
