@@ -1,5 +1,5 @@
 Summary:	PLD HTML pages
-Summary(pl.UTF-8):   Strony HTML PLD
+Summary(pl.UTF-8):	Strony HTML PLD
 Name:		pldhtml
 Version:	0.2
 Release:	1
